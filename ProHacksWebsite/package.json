@@ -1,0 +1,40 @@
+{
+  "name": "inout",
+  "version": "1.0.0",
+  "description": "landing page for inout fourth edition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackinout/InOut4-landing.git"
+  },
+  "keywords": [
+    "hackathon",
+    "inout"
+  ],
+  "author": "Akash Nimare <svnitakash@gmail.com> (http://akashnimare.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackinout/InOut4-landing/issues"
+  },
+  "homepage": "https://github.com/hackinout/InOut4-landing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uncss": "^1.0.6"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-minify": "^0.0.15",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "pump": "^1.0.2"
+  }
+}

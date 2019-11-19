@@ -1,0 +1,141 @@
+
+/*=============================================
+=            campus page            =
+=============================================*/
+
+.campus--header{
+    text-align: center;
+    /*background-image: none;*/
+    /*margin-bottom: -30px;*/
+    background-image: url(../assets/img/cover-illu.svg);
+    background-position: 50% 100%;
+    background-size: 60%;
+}
+
+.campus--about{
+    background-color: #21223f;
+    /*background-image: url('../assets/img/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 100%*/
+    padding: 0;
+}
+
+.campus--about section{
+    width: 50%;
+}
+.about-left{
+    min-height: 300px;
+    float: left;
+    background-image: url('../assets/img/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%
+}
+
+.about-right{
+    float: right
+}
+
+
+
+.campus-card{
+    /*background: #5252DB;*/
+    background: #486ed4;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+    min-height: 515px;
+}
+/*
+.campus-card img{
+    height: 190px;
+    width: 100%
+}*/
+
+.campus-card div{
+    margin: 40px
+}
+
+@media (max-width: 768px){
+    .section-lead{
+        font-size: 2.375em;
+    }
+
+    .section-paragraph{
+        font-size: 16px !important; 
+    }
+    .campus--about section{
+        width: 100%;
+    }
+}
+
+.campus--subheading{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif
+}
+
+.campus--coming{
+    background-color: #fff;
+}
+
+.campus--campus-us{
+    background-color: #5252DB;
+}
+
+.campus--campus-us h1 {
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .campus--header{
+        background-size: contain;
+    }
+}
+
+.hl{
+    color: #00FFC2
+}
+
+.blue{
+    color: #5252DB !important;
+}
+
+.section-lead.blue{
+    margin-top: auto;
+}
+
+.blue-grey{
+    color: #3A3A62 !important;
+}
+
+.campus--form{
+    background-color: #484cc3 !important
+}
+
+.left-sep, .right-sep{
+    padding: 40px 0
+}
+
+@media (max-width: 990px) {
+    .left-sep{
+        border-bottom: 1px solid #3a3a62
+    }
+}
+
+@media (min-width: 991px) {
+    .right-sep{
+        border-left: 1px solid #3a3a62
+    }
+    
+    .left-sep, .right-sep{
+        padding: 120px 0
+    }
+}
+
+.padding-bottom-0{
+    padding-bottom: 0 !important;
+}
+/*=====  End of campus page  ======*/
+
