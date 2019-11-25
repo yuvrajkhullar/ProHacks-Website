@@ -12,30 +12,36 @@
 </style>
 <body>
 
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide" style="font-size: medium">ProHacks</a>
+  <div class="w3-bar w3-black w3-card" id="myNavbar">
+    <!-- <a href="#home" class="w3-bar-item w3-button w3-wide" style="font-size: medium">ProHacks</a>-->
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">OVERVIEW</a>
-      <a href="#work" class="w3-bar-item w3-button">WHY COME?</a>
-      <a href="#team" class="w3-bar-item w3-button"></i> TEAM</a>
-      <a href="#contact" class="w3-bar-item w3-button"> CONTACT</a>
+    <div class="w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small ">OVERVIEW</a>
+      <a href="#work" class="w3-bar-item w3-button ">WHY COME?</a>
+      <a href="#team" class="w3-bar-item w3-button ">TEAM</a>
+      <a href="#contact" class="w3-bar-item w3-button r"> CONTACT</a>
     </div>
   </div>
 </div>
 
 
-<header class="w3-container .bgimg-1 w3-center" style="padding:128px 16px">
+
+
+<!-- Header -->
+<header class="w3-container .bgimg-1 w3-center" style="padding:128px 16px;">
     <h1 class="w3-margin-top w3-jumbo" style="padding-top: 50px">ProHacks</h1><break></break>
+    <!-- <h1 style="background-color:Green;"></h1> -->
     <p> </p>
-    <button class="w3-button w3-black w3-large w3-margin-top w3-margin-bottom" style="border-radius: .25rem;">Sign Up</button>
+    <button class="w3-button w3-large w3-margin-top w3-margin-bottom" style="border-radius: .25rem;background-color: green">Sign Up</button>
   </header>
 
+<!-- About Section -->
 <div class="w3-container" style="padding:128px" id="about">
   <h3 class="w3-center">What do you want to make?</h3>
-  <h6 class ="w3-center">Nowadays, hackathons are rampant with negative influences. Whether it be cheating, bad judging, horrible mentors, or an uncomfortable venue, it's hard to perform your best at hackathons lately. That's where we come in. After months of attending various hackathons and surveying the attendees, we're ready to present a hackathon that allows the competitve coder in you to roam free.</h4>
+  <h6 class ="w3-center">Nowadays, hackathons are rampant with negative influences. Whether it be cheating, bad judging, horrible mentors, or an uncomfortable venue, it's hard to perform your best at hackathons lately. That's where we come in. After months of attending various hackathons and surveying the attendees, we're ready to present a hackathon that allows the competitive coder in you to roam free.</h4>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-third">
       <i class="fa fa-code w3-margin-bottom w3-jumbo w3-center"></i>
@@ -71,10 +77,17 @@
 </div>
 
 <div class="w3-container w3-center" style="padding:128px" id="work">
-        <h3>Why Come?</h3>
-        <h5>Hackathons are meant to be fun. They're meant to be a place where you can unwind. Hackathons are supposed to be where you can yell the strength out of your throats when Firebase doesn't work, start dancing all over the floor when you finally fix that pesky bug, and cringe while Pradyun, the head organizer, stands on the podium and makes really horrible jokes that only a 40-year old dad would laugh at. He'll also be that guy that running around the venue like a madman 24/7. The ProHacks team are firm believers in that. Either way, the enthusiasm that the team brings to the table is reason enough to come to ProHacks. If you need an extra incentive, at some point our head organizer will be riding a cart while throwing random snacks at teams. Let's be honest, you want to see that.</p>
+  <h3>Why Come?</h3>
+  <h5>Hackathons are meant to be fun. They're meant to be a place where you can unwind. Hackathons are supposed to be where you can yell the strength out of your throats when Firebase doesn't work, start dancing all over the floor when you finally fix that pesky bug, and cringe while Pradyun, the head organizer, stands on the podium and makes really horrible jokes that only a 40-year old dad would laugh at. He'll also be that guy that running around the venue like a madman 24/7. The ProHacks team are firm believers in that. Either way, the enthusiasm that the team brings to the table is reason enough to come to ProHacks. If you need an extra incentive, at some point our head organizer will be riding a cart while throwing random snacks at teams. Let's be honest, you want to see that.</p>
 </div>
 
+<div class="w3-container w3-center" style="padding:120px" id="work">
+  <h3>SPONSORS</h3>
+  <h5>Huge shoutout to all of our sponsors and partners for making this event possible! That being said, we're always looking for more companies to team up with.</p>
+</div>
+
+
+<!-- Team Container -->
 <div class="w3-container w3-center" style="padding-top: 100px; padding-left:128px; padding-right:128px; padding-bottom: 256px;" id="team">
         <h3>OUR TEAM</h3>
         <br/><br/>
@@ -82,7 +95,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Photo" style="width:300px;height:300px;">
+                    <img src="header-bg.png" alt="Photo" style="width:300px;height:300px;">
                     </div>
                     <div class="flip-card-back">
                     <h1>Name</h1>
@@ -123,12 +136,12 @@
     </div>
 </div>
         
-
-<section class="contact-section" style="background-color: #eee">
+<div id="contact">
+<section class="contact-section" style="background-color: black">
         <div style="text-align: center">
             <h1>Have Questions? </h1>
             <h2>Contact Us</h2>
-            <form action="https://formspree.io/anishk23733@gmail.com" method="POST" autocomplete="off">
+            <form action="https://formspree.io/prohacks.com" method="POST" autocomplete="off">
                 <input class="contact-input" type="text" name="name" placeholder="Name"><br>
                 <input class="contact-input" type="email" name="_replyto" placeholder="Email"><br>
                 <input class="contact-input" type="text" name="_replyto" placeholder="Message"><br>
@@ -136,7 +149,7 @@
             </form>
         </div>
     </section>
-
+  </div>
     <footer style="background-color: #111; padding: 2rem; color: #fff">
             <span>© ProHacks. All rights reserved.</s>
                 
